@@ -1,0 +1,185 @@
+/* FONT-FAMILY */
+/* body{
+    font-family: cursive;
+    }
+
+h1, 
+h2 {
+    font-family: Arial, Verdana, sans-serif;}
+    
+.credits {
+        font-family: "Courier New", Courier, 
+        monospace;} */
+
+        /* FONT-SIZE */
+        /* IN-PIXELS */
+    /* p{
+        font-size: 55px;
+    } */
+    /* PERCENTAGE */
+    /* p{
+        font-size: 500%;
+    } */
+    /* DEFAULT VALUES */
+    /* p{
+        font-size: xx-large;
+    } */
+    /* IN EM  */
+    /* p{
+        font-size: 5em;
+    } */
+    /* FONT FACE */
+    /* #font-face{
+        font-family: test;
+        src: url('./fonts/Agbalumo-Regular.ttf');
+    }
+    p{
+        font-family: test;
+    } */
+    /* FONT WEIGHT */
+    /* p{
+        font-weight:900;
+    } */
+    /* font style */
+    /* h1{
+        font-style: italic;
+    } */
+    /* using id selectors and comparing 3 styles */
+    /* #normal{
+        font-style: normal;
+    }
+
+    #italic{
+        font-style: italic;
+    }
+
+    #oblique{
+        font-style: oblique;
+    } */
+
+    /*TEXT TRANSFORMATION  */
+    /* hello guys how are you */
+    /* hello guys<=lowercase */
+    /* HELLO GUYS <=upercase */
+    /* Hello Guys <=capitalize */
+/* h1{
+    text-transform: uppercase;
+} */
+/* h1{
+    text-transform: capitalize;
+} */
+/* h1{
+    text-transform: lowercase;
+} */
+
+/* TEXT DECORATION */
+/* #underline{
+text-decoration: underline;
+}
+#overline{
+    text-decoration: overline;
+}
+#line-through{
+    text-decoration: line-through;
+}
+#blink{
+    text-decoration: blink;
+} */
+/* LINE HEIGHT */
+/* p{
+    line-height: 30px;
+} */
+/* LETTER AND WORD SPACING */
+/* word spacing */
+/* h1{
+    word-spacing: 25px;
+} */
+/* letter spacing */
+/* h1{
+    letter-spacing: 16px;
+} */
+/* TEXT ALIGNMENT */
+/* h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+} */
+/* VERTICAL ALIGNMENT */
+/* img{
+    vertical-align: text-top ;
+} */
+/* TEXT INDENT */
+/* h1{
+    text-indent: 50px;
+} */
+/* p{
+    text-indent: 50px;
+    text-align: justify;
+} */
+/* TEXT SHADOW */
+/* p{
+    background-color: #eeee;
+    color: #666666;
+    text-shadow: 4px 12px 3px #000000;
+} */
+/* FIRST LETTER OR FIRST LINE */
+/* p::first-letter{
+    color: red;
+} */
+/* p::first-line{
+    color: blue;
+} */
+/* STYLING LINKS */
+/* a:link{
+    color: green;
+}
+:visited{
+    color: red;
+} */
+/* RESPONDING TO USER */
+
+/* hover */
+/* input.btn:hover{
+    background-color: red;
+}
+input.btn:active{
+    background-color: blue;
+} */
+/* input.btn:focus{
+background-color: blueviolet;
+}
+input.textbox:focus{
+    background-color: black;
+    color: white;
+} */
+/* ATTRIBUTE SELECTORS */
+/* existence */
+/* h1[name]{
+    color: red;
+} */
+
+/*equality */
+/* h1[test="hi"]{
+color: red;
+} */
+
+/* space */
+/* h1[test~="sir"]{
+    color: purple;
+} */
+
+/* prefix */
+/* h1[test^="h"]{
+    color: red;
+} */
+
+/* substring */
+/* h1[test*="e"]{
+    color: red;
+} */
+
+/* suffix */
+h1[test$="d"]{
+    color: red;
+}
